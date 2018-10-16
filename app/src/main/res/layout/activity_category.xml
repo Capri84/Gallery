@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".CategoryActivity">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="14"
+            android:layout_gravity="center_horizontal">
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/all_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/all"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/animals_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/animal"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/buildings_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/buildings"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Все" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Животные" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Архитектура" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/texture_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/texture"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/beauty_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/beauty"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/business_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/business"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Текстуры" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Красота" />
+
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Бизнес" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/communications_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/communications"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/education_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/education"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/emotions_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/emotions"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Связь" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Образование" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Эмоции" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/food_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/food"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/health_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/health"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/industry_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/industry"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Еда/Напитки" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Здоровье" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Индустрия" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/music_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/music"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/nature_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/nature"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/people_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/people"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Музыка" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Природа" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Люди" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/places_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/places"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/religion_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/religion"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/science_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/science"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Места" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Религия" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Технологии" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/sport_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sport"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/transport_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/transportation"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <com.github.abdularis.civ.CircleImageView
+                android:id="@+id/travel_iv"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:src="@drawable/travel"
+                app:highlightColor="#80fb1743"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="1dp" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Спорт" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Транспорт" />
+
+            <TextView
+                android:layout_gravity="center|top"
+                android:text="Путешествия" />
+        </GridLayout>
+</ScrollView>
